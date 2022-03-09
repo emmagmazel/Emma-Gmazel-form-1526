@@ -1,0 +1,207 @@
+html {
+    margin: 1rem;
+    background-color: #F5F5F5;
+}
+
+h1 form {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+form {
+    border: #DDD;
+    border-style: solid;
+    border-width: 0.05rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+}
+
+h1 {
+    font-size: 2rem;
+    border: #DDD;
+    background-color: #F5F5F5;
+    border-width: 0.05rem;
+    border-style: solid;
+    padding: 1rem;
+    width: 20rem;
+    float: initial;
+    margin-bottom: -2rem;
+    margin-left: 2rem;
+
+}
+
+label {
+    padding-top: 5rem;
+    line-height: 2rem;
+    ;
+
+}
+
+button {
+    background-color: #6495ED;
+    font-size: 1rem;
+    color: #F5F5F5;
+    padding: 0.5rem;
+}
+
+/*Landscape phone and up*/
+@media only screen and (min-width:25em) {
+    html {
+        align-items: center;
+        margin: 5rem;
+    }
+
+    form {
+        border: #DDD;
+        border-style: solid;
+        border-width: 0.05rem;
+        margin: 1rem;
+        padding: 1rem;
+        width: 20rem;
+    }
+
+    form .input {
+        width: 20rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        border: #DDD;
+        background-color: #F5F5F5;
+        border-width: 0.05rem;
+        border-style: solid;
+        padding: 1rem;
+        width: 20rem;
+        float: initial;
+        margin-bottom: -2rem;
+        margin-left: 2rem;
+
+    }
+
+    label {
+        padding-top: 5rem;
+        line-height: 2rem;
+        ;
+        width: 20rem;
+
+    }
+
+    button {
+        background-color: #6495ED;
+        font-size: 1rem;
+        color: #F5F5F5;
+        padding: 0.5rem;
+        width: 20rem;
+    }
+
+}
+
+/*portrait tablet and up*/
+@media only screen and (min-width:40em)
+/*landscape desktop (17") and up*/
+
+    {
+    html {
+        align-items: center;
+
+    }
+
+    form {
+        border: #DDD;
+        border-style: solid;
+        border-width: 0.25rem;
+        margin: 1.25rem;
+        padding: 1.25rem;
+        width: 40rem;
+        display: inline-block;
+    }
+
+    form .input {
+        width: 40rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        border: #DDD;
+        background-color: #F5F5F5;
+        border-width: 0.05rem;
+        border-style: solid;
+        padding: 1rem;
+        width: 40rem;
+        float: initial;
+        margin-bottom: -2rem;
+        margin-left: 2rem;
+
+    }
+
+    label {
+        padding-top: 5rem;
+        line-height: 2rem;
+        ;
+        width: 40rem;
+
+    }
+
+    button {
+        background-color: #6495ED;
+        font-size: 1.25rem;
+        color: #F5F5F5;
+        padding: 1rem;
+        width: 7rem;
+    }
+}
+
+/*portrait tablet and up*/
+@media only screen and (min-width:50em)
+/*landscape desktop (17") and up*/
+
+    {
+    html {
+        align-items: center;
+
+    }
+
+    form {
+        border: #DDD;
+        border-style: solid;
+        border-width: 0.25rem;
+        margin: 1.50rem;
+        padding: 1.50rem;
+        width: 40rem;
+        display: inline-block;
+    }
+
+    form .input {
+        width: 40rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        border: #DDD;
+        background-color: #F5F5F5;
+        border-width: 0.25rem;
+        border-style: solid;
+        padding: 2rem;
+        width: 40rem;
+        float: initial;
+        margin-bottom: -3rem;
+        margin-left: 2rem;
+
+    }
+
+    label {
+        padding-top: 5rem;
+        line-height: 2rem;
+        ;
+        width: 40rem;
+
+    }
+
+    button {
+        background-color: #6495ED;
+        font-size: 1.25rem;
+        color: #F5F5F5;
+        padding: 1rem;
+        width: 7rem;
+    }
+}
